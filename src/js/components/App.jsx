@@ -10,7 +10,7 @@ function App() {
         if (prev === "amber") return "green";
         return "red";
       });
-    }, 5000); // Cambiar cada 5 segundos
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
